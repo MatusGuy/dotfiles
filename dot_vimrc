@@ -1,4 +1,4 @@
-map <Enter> o<Enter>
+map <Enter> o<Esc>
 
 set tabstop=4
 set shiftwidth=4
