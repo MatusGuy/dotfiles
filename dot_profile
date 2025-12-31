@@ -26,7 +26,6 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-# Created by `pipx` on 2025-07-05 07:09:02
-export PATH="$PATH:/home/mat/.local/bin"
+export PATH="$PATH:$VCPKG_ROOT"
 
 export EDITOR=nvim
