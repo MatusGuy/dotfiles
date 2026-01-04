@@ -1,8 +1,13 @@
-map <Enter> o<Esc>
+map <CR> o<Esc>
 
 set tabstop=4
 set shiftwidth=4
 set scrolloff=5
+
+set number
+
+set list
+set listchars+=space:·
 
 if has('nvim')
 	set notermguicolors
