@@ -12,4 +12,6 @@ set listchars+=space:·
 if has('nvim')
 	set notermguicolors
 	colorscheme vim
+
+	source ~/.config/nvim/github_review.lua
 endif
